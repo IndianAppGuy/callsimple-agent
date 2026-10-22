@@ -33,7 +33,7 @@ Use whichever is available. Check in this order:
    - Codex: `codex mcp add callsimple --url https://callsimple.app/mcp`, then `codex mcp login callsimple`
    - Any other client: server URL `https://callsimple.app/mcp`
 
-No account yet? Send the user to https://callsimple.app/?ref=skill (sign-in is by phone; 2 free minutes).
+No account yet? The user can sign up at https://callsimple.app/?ref=skill (sign-in is by phone; 2 free minutes).
 
 ## Workflow
 
