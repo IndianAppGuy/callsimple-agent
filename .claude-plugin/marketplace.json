@@ -1,0 +1,6 @@
+{
+  "name": "callsimple",
+  "owner": { "name": "IndianAppGuy", "email": "hey@sanskartiwari.io" },
+  "description": "CallSimple: give your AI agent a phone (Indian +91 numbers, Hindi and English).",
+  "plugins": [{ "name": "callsimple", "source": "./", "description": "Place AI phone calls to Indian numbers and get back what they said." }]
+}

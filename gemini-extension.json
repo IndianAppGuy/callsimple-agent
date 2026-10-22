@@ -1,0 +1,7 @@
+{
+  "name": "callsimple",
+  "version": "1.0.0",
+  "description": "Give your AI agent a phone: AI calls to Indian (+91) numbers in Hindi or English, then the answers and transcript. Bundles the callsimple skill and the hosted CallSimple MCP server (OAuth sign-in).",
+  "mcpServers": { "callsimple": { "httpUrl": "https://callsimple.app/mcp" } },
+  "contextFileName": "GEMINI.md"
+}

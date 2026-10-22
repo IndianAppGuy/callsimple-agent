@@ -1,0 +1,18 @@
+{
+  "name": "callsimple",
+  "displayName": "CallSimple",
+  "version": "1.0.0",
+  "description": "Give your AI agent a phone. It calls Indian (+91) numbers, talks in Hindi or English, and tells you what they said.",
+  "author": { "name": "IndianAppGuy", "email": "hey@sanskartiwari.io", "url": "https://callsimple.app/?ref=claude-code" },
+  "homepage": "https://callsimple.app/?ref=claude-code",
+  "repository": "https://github.com/IndianAppGuy/callsimple-agent",
+  "license": "MIT",
+  "keywords": ["phone", "calls", "india", "hindi", "voice", "mcp"],
+  "skills": ["./skills/callsimple"],
+  "mcpServers": { "callsimple": { "type": "http", "url": "https://callsimple.app/mcp" } },
+  "privacyPolicyUrl": "https://callsimple.app/privacy",
+  "termsOfServiceUrl": "https://callsimple.app/terms",
+  "supportUrl": "https://callsimple.app/support",
+  "documentationUrl": "https://github.com/IndianAppGuy/callsimple-agent#readme",
+  "icon": "./assets/icon.png"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.IndianAppGuy/callsimple",
+  "title": "CallSimple",
+  "description": "AI phone calls to Indian (+91) numbers in Hindi or English; get back what the person said.",
+  "version": "1.0.0",
+  "websiteUrl": "https://callsimple.app/?ref=mcp-registry",
+  "repository": { "url": "https://github.com/IndianAppGuy/callsimple-agent", "source": "github" },
+  "icons": [{ "src": "https://raw.githubusercontent.com/IndianAppGuy/callsimple-agent/main/assets/icon.png", "mimeType": "image/png", "sizes": ["256x256"] }],
+  "remotes": [{ "type": "streamable-http", "url": "https://callsimple.app/mcp" }]
+}

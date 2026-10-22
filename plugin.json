@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "callsimple",
+  "version": "1.0.0",
+  "description": "Give your AI agent a phone. It calls Indian (+91) numbers, talks in Hindi or English, and tells you what they said.",
+  "author": { "name": "IndianAppGuy", "email": "hey@sanskartiwari.io", "url": "https://callsimple.app" },
+  "homepage": "https://callsimple.app/?ref=plugin",
+  "repository": "https://github.com/IndianAppGuy/callsimple-agent",
+  "license": "MIT",
+  "keywords": ["phone", "calls", "india", "hindi", "voice"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "CallSimple",
+        "shortDescription": "Your agent calls Indian numbers and tells you what they said.",
+        "longDescription": "CallSimple places real phone calls to Indian (+91) mobile numbers with an AI voice that says it is an AI assistant calling for you. It delivers your message in Hindi, English or 9 other Indian languages, asks up to 8 questions one at a time, and returns a summary, each answer and the transcript. Use it for reminders, confirmations, appointment bookings and quick questions to shops, clinics and contacts. You always see the number, message and questions and say yes before any call. Sales pitches, debt collection, threats and requests for OTPs or bank details are refused.",
+        "developerName": "IndianAppGuy",
+        "category": "Productivity",
+        "capabilities": ["Interactive", "Write"],
+        "websiteURL": "https://callsimple.app/?ref=chatgpt",
+        "privacyPolicyURL": "https://callsimple.app/privacy",
+        "termsOfServiceURL": "https://callsimple.app/terms",
+        "defaultPrompt": [
+          "Call my plumber in Hindi and ask if he can come tomorrow at 11",
+          "Confirm with the caterer by phone that 40 people are coming on Friday",
+          "How many CallSimple minutes do I have left?"
+        ],
+        "brandColor": "#1F6F4A",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
