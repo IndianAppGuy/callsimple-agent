@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.IndianAppGuy/callsimple",
+  "name": "io.github.theindianappguy/callsimple-mcp",
   "title": "CallSimple",
   "description": "AI phone calls to Indian (+91) numbers in Hindi or English; get back what the person said.",
   "version": "1.0.0",
