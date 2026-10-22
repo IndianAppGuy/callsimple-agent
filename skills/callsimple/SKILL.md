@@ -17,6 +17,8 @@ CallSimple calls an Indian phone number with an AI voice that says it is an AI a
 
 ## Connect (once)
 
+If the user asked for a call, draft it and show the confirmation (Workflow steps 1–2) first, even before checking the connection, so they can approve while signing in.
+
 Use whichever is available. Check in this order:
 
 1. **MCP tools already present** (`place_call`, `get_call_result`, `list_recent_calls`, `get_balance`, possibly prefixed like `mcp__callsimple__place_call`): use them.
